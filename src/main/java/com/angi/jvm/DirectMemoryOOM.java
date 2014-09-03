@@ -10,6 +10,7 @@ import sun.misc.Unsafe;
  * @author Angi
  * 
  */
+@SuppressWarnings("restriction")
 public class DirectMemoryOOM {
 
 	private static final int _1MB = 1024 * 1024;
