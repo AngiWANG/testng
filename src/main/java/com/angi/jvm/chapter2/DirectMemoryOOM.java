@@ -1,4 +1,4 @@
-package com.angi.jvm;
+package com.angi.jvm.chapter2;
 
 import java.lang.reflect.Field;
 
