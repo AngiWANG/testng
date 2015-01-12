@@ -7,7 +7,7 @@ public class Money {
 	private String descritionp;
 
 	public Money add(Money target) {
-		return new Money(target.getValue() + this.value, this.getDescritionp());
+		return new Money(target.getValue() + value, descritionp);
 	}
 
 	public Money(int value, String descritionp) {
