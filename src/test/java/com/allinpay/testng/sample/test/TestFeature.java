@@ -25,12 +25,11 @@ public class TestFeature {
 	 * 
 	 * @throws InterruptedException
 	 */
-	@Test(timeOut = 1000)
+	@Test(timeOut = 2000)
 	public void testTimeOut() {
 		try {
-			Thread.sleep(2000);
+			Thread.sleep(1000);
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		System.out.println("testTimeOut");
