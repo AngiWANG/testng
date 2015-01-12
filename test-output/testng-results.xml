@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="53" started-at="2015-01-08T10:06:23Z" finished-at="2015-01-08T10:06:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="53" started-at="2015-01-08T10:06:23Z" finished-at="2015-01-08T10:06:23Z">
+      <class name="com.angi.junit.TestSample">
+        <test-method status="PASS" signature="testAdd()[pri:0, instance:com.angi.junit.TestSample@1f0b7d3]" name="testAdd" duration-ms="33" started-at="2015-01-08T18:06:23Z" finished-at="2015-01-08T18:06:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+      </class> <!-- com.angi.junit.TestSample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
