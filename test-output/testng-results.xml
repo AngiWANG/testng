@@ -1,17 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="53" started-at="2015-01-08T10:06:23Z" finished-at="2015-01-08T10:06:23Z">
+  <suite name="Default suite" duration-ms="138" started-at="2015-01-12T09:37:58Z" finished-at="2015-01-12T09:37:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="53" started-at="2015-01-08T10:06:23Z" finished-at="2015-01-08T10:06:23Z">
-      <class name="com.angi.junit.TestSample">
-        <test-method status="PASS" signature="testAdd()[pri:0, instance:com.angi.junit.TestSample@1f0b7d3]" name="testAdd" duration-ms="33" started-at="2015-01-08T18:06:23Z" finished-at="2015-01-08T18:06:23Z">
+    <test name="Default test" duration-ms="138" started-at="2015-01-12T09:37:58Z" finished-at="2015-01-12T09:37:58Z">
+      <class name="com.allinpay.testng.sample.test.TestParameter">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.allinpay.testng.sample.test.TestParameter@20fa83]" name="setUp" is-config="true" duration-ms="80" started-at="2015-01-12T17:37:58Z" finished-at="2015-01-12T17:37:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAdd(com.allinpay.testng.sample.Money, com.allinpay.testng.sample.Money)[pri:0, instance:com.allinpay.testng.sample.test.TestParameter@20fa83]" name="testAdd" duration-ms="25" started-at="2015-01-12T17:37:58Z" data-provider="test1" finished-at="2015-01-12T17:37:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.allinpay.testng.sample.Money@1295fe8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.allinpay.testng.sample.Money@157b46f]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAdd -->
-      </class> <!-- com.angi.junit.TestSample -->
+        <test-method status="PASS" signature="testAdd(com.allinpay.testng.sample.Money, com.allinpay.testng.sample.Money)[pri:0, instance:com.allinpay.testng.sample.test.TestParameter@20fa83]" name="testAdd" duration-ms="1" started-at="2015-01-12T17:37:58Z" data-provider="test1" finished-at="2015-01-12T17:37:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.allinpay.testng.sample.Money@16de067]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.allinpay.testng.sample.Money@a7c45e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+      </class> <!-- com.allinpay.testng.sample.test.TestParameter -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

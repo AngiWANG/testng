@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Angi\AppData\Local\Temp\testng-eclipse-619645420\testng-customsuite.xml</span>
+                    <span>C:\Users\Angi\AppData\Local\Temp\testng-eclipse-193532513\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,7 +101,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.angi.junit.TestSample" hash-for-method="testAdd">testAdd</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.allinpay.testng.sample.test.TestParameter" hash-for-method="testAdd(com.allinpay.testng.sample.Money@1295fe8, com.allinpay.testng.sample.Money@157b46f)">testAdd(com.allinpay.testng.sample.Money@1295fe8, com.allinpay.testng.sample.Money@157b46f)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.allinpay.testng.sample.test.TestParameter" hash-for-method="testAdd(com.allinpay.testng.sample.Money@16de067, com.allinpay.testng.sample.Money@a7c45e)">testAdd(com.allinpay.testng.sample.Money@16de067, com.allinpay.testng.sample.Money@a7c45e)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -119,14 +124,23 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.angi.junit.TestSample</span>
+              <span class="class-name">com.allinpay.testng.sample.test.TestParameter</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testAdd">
-                  </a> <!-- testAdd -->
+                  <a name="testAdd(com.allinpay.testng.sample.Money@1295fe8, com.allinpay.testng.sample.Money@157b46f)">
+                  </a> <!-- testAdd(com.allinpay.testng.sample.Money@1295fe8, com.allinpay.testng.sample.Money@157b46f) -->
                   <span class="method-name">testAdd</span>
+                  <span class="parameters">(com.allinpay.testng.sample.Money@1295fe8, com.allinpay.testng.sample.Money@157b46f)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAdd(com.allinpay.testng.sample.Money@16de067, com.allinpay.testng.sample.Money@a7c45e)">
+                  </a> <!-- testAdd(com.allinpay.testng.sample.Money@16de067, com.allinpay.testng.sample.Money@a7c45e) -->
+                  <span class="method-name">testAdd</span>
+                  <span class="parameters">(com.allinpay.testng.sample.Money@16de067, com.allinpay.testng.sample.Money@a7c45e)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -134,7 +148,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Angi\AppData\Local\Temp\testng-eclipse-619645420\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Angi\AppData\Local\Temp\testng-eclipse-193532513\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -143,7 +157,7 @@
 &lt;suite name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.angi.junit.TestSample&quot;/&gt;
+      &lt;class name=&quot;com.allinpay.testng.sample.test.TestParameter&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -183,16 +197,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testAdd')
-data.setCell(0, 2, 'com.angi.junit.TestSample')
-data.setCell(0, 3, 33);
+data.setCell(0, 2, 'com.allinpay.testng.sample.test.TestParameter')
+data.setCell(0, 3, 25);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testAdd')
+data.setCell(1, 2, 'com.allinpay.testng.sample.test.TestParameter')
+data.setCell(1, 3, 1);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 33 ms</span>
+              <span class="suite-total-time">Total running time: 26 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -218,10 +236,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.angi.junit.TestSample</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">testAdd</span>
+              <div class="chronological-class-name">com.allinpay.testng.sample.test.TestParameter</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testAdd(com.allinpay.testng.sample.Money@1295fe8, com.allinpay.testng.sample.Money@157b46f)</span>
+                <span class="method-start">95 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAdd(com.allinpay.testng.sample.Money@16de067, com.allinpay.testng.sample.Money@a7c45e)</span>
+                <span class="method-start">123 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

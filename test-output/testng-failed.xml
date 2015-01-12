@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.angi.junit.TestFixture">
+      <class name="com.allinpay.testng.sample.test.TestParameter">
         <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="timeout"/>
+          <include name="testAdd"/>
         </methods>
-      </class> <!-- com.angi.junit.TestFixture -->
+      </class> <!-- com.allinpay.testng.sample.test.TestParameter -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

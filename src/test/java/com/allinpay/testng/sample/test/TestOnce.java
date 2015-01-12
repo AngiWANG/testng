@@ -6,26 +6,27 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class TestOnce {
-	@BeforeClass
-	public static void setUp() {
-		System.out.println("setUp");
-	}
-
-	@Test
-	public void testAdd() {
-		System.out.println("testAdd");
-		Assert.assertTrue(true);
-	}
-
-	@Test
-	public void testSub() {
-		System.out.println("testSub");
-		Assert.assertTrue(true);
-	}
 
 	@AfterClass
-	public static void TearDown() {
-		System.out.println("TearDown");
+	public static void afterClass() {
+		System.out.println("afterClass");
+	}
+
+	@BeforeClass
+	public static void beforeClass() {
+		System.out.println("beforeClass");
+	}
+
+	@Test
+	public void test1() {
+		System.out.println("test1");
+		Assert.assertTrue(true);
+	}
+
+	@Test
+	public void test2() {
+		System.out.println("test2");
+		Assert.assertTrue(true);
 	}
 
 }
